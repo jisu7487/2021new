@@ -1,8 +1,8 @@
 const http = reauire('http');
 
-const hostname = 'localhost';
 const port = 8000;
-const baseUrl = 'http://'+ hstname + ':' + 8000;
+const hostname = 'localhost';
+const baseUrl = 'http://' + hostname + ':' + 8000;
 
 function start() {
     function onRequest(req, res) {
