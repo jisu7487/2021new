@@ -9,8 +9,7 @@ function start(route, handle) {
   function onRequest(req, res) {
     console.log('Request receive.');
     pathname = new url.URL(req.url, baseUrl).pathname;
-    route(pathname);
-
+    route(pathname, handle, res);
   }
 
   server = http.createServer(onRequest);
