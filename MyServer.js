@@ -1,4 +1,4 @@
-const http = reauire('http');
+const http = require('http');
 
 const port = 8000;
 const hostname = 'localhost';
